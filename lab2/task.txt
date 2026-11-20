@@ -1,0 +1,5 @@
+TASK1
+The actual Tm is influenced by the concentration of Mg²⁺, K⁺, and cosolvents. An alternative formula is:
+Tm = 81.5 + 16.6 · (log₁₀([Na⁺])) + 41 · (%GC) − 600 / length
+Implement an app that calc. the Tm of a DNA seq. using one of these formulas or both.
+Input = ACGCGTGCCA

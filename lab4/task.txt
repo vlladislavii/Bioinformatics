@@ -1,0 +1,3 @@
+TASK1
+Take an entire genome from NCBI and take 2000 random samples of about 100–120 bases from it.
+Store these samples in an array or list. Rebuild the DNA sequence from these samples and find out what the main problem with this approach is.

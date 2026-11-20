@@ -1,0 +1,5 @@
+TASK1
+Make an artificial DNA sequence of 200 to 400 bases in which to simulate 3 to 4 transposable elements.
+Implement a software app that can detect the positions (start, end) of these transposable elements in the created sequence.
+Note: intersect 2 or 3 transposons to see how the algorithm behaves in these situations.
+(The board also has a drawing of a transposon with inverted repeats and direct repeats at the target site.)

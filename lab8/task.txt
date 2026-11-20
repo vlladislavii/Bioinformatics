@@ -1,0 +1,49 @@
+TASK1
+Implement a software app that aligns two DNA sequences by using the Needleman-Wunsch algorithm.
+
+  S1 = "ACCGTGAAGCCAATAC"
+  S2 = "AGCGTGCAGCCAATAC"
+
+TASK2
+Implement a software application that makes DNA patterns from DNA sequences of gene promoters.
+Compute the (C+G)% and the information content values from each sliding window (SW).
+To ensure that the algorithm implementation works correctly, use the following steps:
+
+1. Use S = "CGGACTGATCTATCT[A(27)]CGTAGCATCTATCGATCTATCTAGCGATCTA"
+   where [A(27)] means the letter A written 27 times:
+   S = "CGGACTGATCTATCTAAAAAAAAAAAAAAAAAAAAAAAAAAACGTAGCATCTATCGATCTATCTAGCGATCTA"  (73 letters)
+
+2. Use a sliding window of length 30.
+
+3. Build a function to process the C+G content.
+   -> the value that the function must return is CG ~ 29.27
+
+4. Build a function to process the information content.
+   -> the value that the function must return is IC ~ 27.53
+
+   Formula (from the board), for a sequence S = {x1, ..., x|S|}:
+
+                    |S|-1   ( |S|-u                                    )
+                     SUM    (  SUM  f(x_i, x_(u+i))  /  ((|S|-u) x 100) )
+                     u=1    (  i=1                                     )
+     sigma(S) = 100 - -----------------------------------------------------
+                                          |S| - 1
+
+     f(x_i, x_(u+i)) = +1  if x_i  = x_(u+i)
+                        0  if x_i != x_(u+i)
+
+5. Plot the pattern on a chart.
+
+6. Compute the center of weight of the pattern.
+
+7. Take the center of each pattern and plot it on a second chart.
+
+8. Take the DNA sequence of a promoter and generate a pattern.
+   Open PromKappa from GitHub and run it to check if your pattern is the same.
+
+
+NOTE
+The expected values could not be reproduced: for S the functions return
+C+G = 27.40 and IC = 30.03 (board: 29.27 and 27.53). The functions follow the
+teacher's own code (PromKappa / Self-sequence-alignment on github.com/Gagniuc).
+To be confirmed with the teacher.

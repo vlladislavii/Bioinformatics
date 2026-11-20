@@ -1,0 +1,5 @@
+TASK1
+0. Design a function that uses the Genetic Code table to convert codons to amino acids.
+1. Search on NCBI for a complete viral genome or a bacterial genome.
+2. Design a soft. app. which is able to detect all codon frequencies in all frames. Sort these freq. from the highest to the smallest and show the 10 most freq. codons on a chart.
+3. Use an LLM model (either online via API / locally) to make a prompt that includes the 10 most freq. codons found and the request for the AI to make a list with the foods that contain the lowest amino acids associated with our top 10 codon freq. Note that each codon from top 10 is associated with an amino acid.

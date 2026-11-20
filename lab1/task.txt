@@ -1,0 +1,4 @@
+TASK1
+The DNA sequence in Bioinformatics is represented by a sequence of text composed from an alphabet of four letters, namely: A, C, G, T.
+Design a software application that is able to measure the frequency of four letters inside sequence S, whereas:
+ex: '...TGCATTACTTGCAGT', the output should be the frequency of each letter."

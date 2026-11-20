@@ -1,0 +1,26 @@
+TASK1
+Restriction enzymes (from the board), ^ = cleavage site:
+
+  EcoRI    5'-G^AATTC-3'      cut:  5'---G       AATTC---3'
+           3'-CTTAA^G-5'            3'---CTTAA       G---5'
+
+  BamHI    5'-G^GATCC-3'      cut:  5'---G       GATCC---3'
+           3'-CCTAG^G-5'            3'---CCTAG       G---5'
+
+  HindIII  5'-A^AGCTT-3'      cut:  5'---A       AGCTT---3'
+           3'-TTCGA^A-5'            3'---TTCGA       A---5'
+
+TASK1
+1. Take an arbitrary DNA sequence from NCBI, between 1000 and 3000 nucleotides (letters).
+2. Use 3 restriction enzymes (name, recognition sequence, cleavage site).
+3. Cut the DNA sequence with each restriction enzyme: find the cleavage positions and the
+   lengths of the resulting fragments.
+4. Simulate the gel electrophoresis of the fragments (one lane for each enzyme, next to a
+   DNA ladder) and draw a visual representation.
+
+TASK2
+Do the same as in Task 1 for two genomes from NCBI, but this time put their gels side by side
+to see whether they have differences.
+
+Note: the enzyme table and steps 1-2 are copied from the board. The photo ends after step 2,
+so steps 3-4 and Task 2 are reconstructed from the class notes and a classmate's solution.
